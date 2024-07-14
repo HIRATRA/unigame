@@ -1,0 +1,95 @@
+#popular {
+}
+
+#popular .card {
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+#popular .card .img-fluid {
+  height: 150px;
+  object-fit: cover;
+}
+
+#popular .card .price {
+  position: absolute;
+  padding: 2px 8px;
+  background-color: #032231;
+  top: 136px;
+  right: 16px;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+#popular .card .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#popular .card .card-body h5 {
+  margin: 0px;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#popular .card .card-body .company {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#popular .card .card-body .company img {
+  display: block;
+  width: 16px;
+}
+
+#popular .card .card-body .company p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+#popular .card .card-body .rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#popular .card .card-body .rate .rank {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background-color: #ffb6482b;
+  border-radius: 16px;
+}
+
+#popular .card .card-body .rate .rank i {
+  font-size: 16px;
+  color: #ffb648;
+  position: relative;
+  top: -1.5px;
+}
+
+#popular .card .card-body .rate .rank span {
+  font-size: 14px;
+  margin: 0px;
+}
+
+#popular .card .card-body .rate button {
+  border: 0px;
+  box-shadow: none;
+  background-color: #1f2227;
+  border-radius: 16px;
+  color: white;
+  font-size: 16px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

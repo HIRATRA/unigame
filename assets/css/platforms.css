@@ -1,0 +1,64 @@
+.stats-card {
+  background-color: #fcfcfc;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.stats-card .stat-cards-icon {
+  background-color: #47b2e421;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.stats-card .stat-cards-icon img {
+  width: 24px;
+}
+
+.stats-card .stat-cards-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.stats-card .stat-cards-info p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.stat-cards-info__num {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #171717;
+  margin-bottom: 4px;
+}
+
+.stat-cards-info__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.22;
+  color: #b9b9b9;
+  margin-bottom: 6px;
+}
+
+.stat-cards-info__progress {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.stat-cards-info__profit {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

@@ -1,0 +1,150 @@
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+.text-success {
+  color: #2dd4bf !important;
+}
+
+.text-danger {
+  color: #f26464 !important;
+}
+
+.text-warning {
+  color: #ffb648 !important;
+}
+
+.bg-success {
+  background-color: #2dd4bf !important;
+}
+
+.bg-danger {
+  background-color: #f26464 !important;
+}
+
+.bg-warning {
+  background-color: #ffb648 !important;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  background: #0f1d36e6;
+}
+
+#header .logo {
+  text-transform: none;
+}
+
+#header .search .input-group-icon{
+  background-color: white;
+  border-radius: 50px;
+  overflow: hidden;
+  padding: 8px 16px;
+  margin-left: 30px;
+}
+
+#header input {
+  outline: none;
+  border-radius: none;
+  padding: 0px;
+  outline: none;
+  box-shadow: none;
+  padding-inline: 8px;
+}
+
+#header svg {
+  width: 16px;
+  margin-right: 8px;
+  fill: #47B2E4;
+}
+
+.navbar .auth,
+.navbar .auth:focus {
+  margin-left: 30px;
+  border-radius: 50px;
+  color: rgb(71, 178, 228);
+  font-size: 14px;
+  border: 2px solid rgb(71, 178, 228);
+  font-weight: 600;
+  padding: 8px 20px !important;
+}
+
+.navbar .auth:hover {
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(71, 178, 228);
+  background-color: rgb(71, 178, 228);
+}
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+#hero {
+  background-color: #0a2145;
+  height: 100vh;
+  position: relative;
+  background-image: url(../img/stars.png);
+  background-attachment: fixed;
+}
+
+#hero .container {
+  padding-top: 0px;
+  position: relative;
+}
+
+#hero .loader {
+    position: absolute;
+  width: 32px;
+  height: 52px;
+  bottom: 40px;
+  left: calc(50% - 16px);
+  box-sizing: border-box;
+  border: 1.33px solid #fff;
+  border-radius: 50% 50% 50% 50% / 25% 25% 25% 25%;
+}
+#hero .loader::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 13.33px;
+  transform: translateX(-50%);
+  width: 2.67px;
+  height: 2.67px;
+  background: #fff;
+  border-radius: 6.67px;
+  animation: scrollDown 1s linear infinite;
+}
+@keyframes scrollDown {
+  0% {
+    top: 10px;
+    height: 2.67px;
+    opacity: 1;
+  }
+  33% {
+    top: 10px;
+    height: 26.67px;
+  }
+  66% {
+    top: 33.33px;
+    height: 6.67px;
+    opacity: 1;
+  }
+  100% {
+    top: 37.33px;
+    height: 2.67px;
+    opacity: 0;
+  }
+}
+
+.moon {
+  position: absolute;
+  top: -10%;
+  left: -5%;
+}
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+#about {
+  padding-top: 120px;
+}
